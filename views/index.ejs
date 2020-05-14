@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title -->
-    <title>Recipe-Book</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="recipe/img/core-img/favicon.ico">
-
-    <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="recipe/style.css">
-
-</head>
+<%-include('DOC'); %>
 
 <body>
     <!-- Preloader -->
@@ -434,40 +415,12 @@
   
 
     <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-12 h-100 d-flex flex-wrap align-items-center justify-content-between">
-                    <!-- Footer Social Info -->
-                    <div class="footer-social-info text-right">
-                        
-                        <a href="#"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
-                    </div>
-                    <!-- Footer Logo -->
-                    <div class="footer-logo">
-                        <a href="/"><h1> Recipe-Book</h1></a>
-                    </div>
-                    <!-- Copywrite -->
-                    <p>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-user-circle-o fa-lg" aria-hidden="true"></i> This site is developed by petermuiruri @ <a href="/" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <%- include('foot'); %>
     <!-- ##### Footer Area Start ##### -->
 
     <!-- ##### All Javascript Files ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="recipe/js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="recipe/js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="recipe/js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
-    <script src="recipe/js/plugins/plugins.js"></script>
-    <!-- Active js -->
-    <script src="recipe/js/active.js"></script>
+    <%- include('scripts'); %>
 </body>
 
 </html>
