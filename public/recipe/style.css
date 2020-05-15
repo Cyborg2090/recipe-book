@@ -1,9 +1,5 @@
 /* [Master Stylesheet v1.0]
 
-- Template Name: Delicious - Food Blog Template
-- Template Author: Colorlib
-- Template URL: colorlib.com
-- Version: 1.0.0
 
 */
 /* :: 1.0 Import Fonts */
@@ -555,9 +551,11 @@ textarea:focus {
     .hero-slides .single-hero-slide .hero-slides-content {
       position: relative;
       z-index: 1;
+      justify-items: center;
       padding: 60px 50px;
       border-left: 3px solid #40ba37;
       background-color: rgba(24, 24, 24, 0.54); }
+      
       @media only screen and (max-width: 767px) {
         .hero-slides .single-hero-slide .hero-slides-content {
           padding: 30px 20px; } }
@@ -957,13 +955,20 @@ textarea:focus {
     background-color: #f3f5f8;
     font-size: 14px;
     padding: 0 20px;
-    border: none; }
+    border: none;
+    }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .receipe-post-search .col-12 {
+      padding-left: 10px;
+      padding-right: auto;
+      
       margin-bottom: 30px; } }
   @media only screen and (max-width: 767px) {
     .receipe-post-search .col-12 {
-      margin-bottom: 15px; } }
+      margin-bottom: 15px;
+      
+      
+       } }
 
 .receipe-slider {
   position: relative;

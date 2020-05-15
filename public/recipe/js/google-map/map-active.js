@@ -1,5 +1,6 @@
 var map;
-var latlng = new google.maps.LatLng(40.730610, -73.935242);
+var shit = google.maps;
+var shit = new shit (40.730610, -73.935242);
 var stylez = [{
     featureType: "all",
     elementType: "all",
@@ -14,12 +15,12 @@ var mapOptions = {
     scaleControl: false,
     disableDefaultUI: true,
     mapTypeControlOptions: {
-        mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'gMap']
+        mapTypeIds: [google.map.MapTypeId.ROADMAP, 'gMap']
     }
 };
 map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
 var geocoder_map = new google.maps.Geocoder();
-var address = 'New york';
+var address = 'Nairobi,Kenya';
 geocoder_map.geocode({
     'address': address
 }, function (results, status) {
