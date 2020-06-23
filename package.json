@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "api based food recipe app",
   "main": "app.js",
-  "private": "true",
+  "private": true,
   "engines": {
     "node": "12.16.x"
   },
@@ -20,8 +20,10 @@
     "cookie-parser": "^1.4.5",
     "ejs": "^3.1.2",
     "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
     "express-session": "^1.17.1",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "request": "^2.88.2"
   }
 }
